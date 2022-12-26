@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Unbounded', cursive;
+    
+}
+
+.head-top{
+    position: fixed;
+    width: 98%;
+    height: 70px;
+    background-color: brown;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    z-index: 200;
+}
+.logo{
+    height: 80px;
+    width: 150px;
+    background-size: cover;
+    background-image: url(/Spider-Man/img/Spider-Man-Logo.svg);
+    /* background-image: url(https://logos-world.net/wp-content/uploads/2020/11/Spider-Man-Logo.png); */
+    margin-left: 15px;
+}
+.text-header{
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+}
+.text-header > a{
+    color: white;
+    padding: 8px;
+    font-size: 25px;
+   
+}
+
+
+.page1{
+    background-image: url(https://img2.goodfon.com/original/1920x1080/0/1b/spider-man-chelovek-pauk.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size: 30px;
+    color: white;
+}
+.page2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+   
+}
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.video{
+    height: 810px;
+    
+}
+.page4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://img2.goodfon.com/original/1920x1080/0/1b/spider-man-chelovek-pauk.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+    height: 700px;
+    width: 100%;
+}
+ 
+
+.card-universe{
+    height: 300px;
+    width:500px;
+background-color: azure;
+border-radius: 15px;
+margin: 5px;
+margin-top: 100px;
+} 
+.ultimatespiderman{
+    width: 400px;
+    height: 200px;
+    background-color: darkblue;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.amazingspiderman{
+    width: 400px;
+    height: 200px;
+    background-color: darkblue;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.bye-card{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.page5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.spiderman1{
+width: 180px;
+height: 250px;
+}
+.ultimatespiderman1{
+    width: 180px;
+    height: 250px;
+}
+.name{
+    color: white;
+}
+p{
+    padding: 20px;
+}
+.book{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    ;
+}
+.bye-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  text-align: center;
+    height: 350px;
+    padding: 20px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    animation-duration: 3s;
+    animation-name: suchka;
+    
+}
+footer{
+    background-color: black;
+    
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ikonki{
+    width: 50px;
+    height: 50px;
+}
+
+.hov{
+transition: 200ms;
+}
+.hov:hover{
+    background-color: rgba(200, 54, 54, 0.9);
+    transform: scale(1.2);
+    color: white; 
+    text-shadow: 4px 4px grey; 
+}
