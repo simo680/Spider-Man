@@ -22,7 +22,7 @@ font-family: 'Unbounded', cursive;
     height: 80px;
     width: 150px;
     background-size: cover;
-    background-image: url(/Spider-Man/img/Spider-Man-Logo.svg);
+    background-image: url(img/Spider-Man-Logo.svg);
     /* background-image: url(https://logos-world.net/wp-content/uploads/2020/11/Spider-Man-Logo.png); */
     margin-left: 15px;
 }
